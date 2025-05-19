@@ -9,7 +9,7 @@ nav a {
 
 }
 h1{
-    color: darkblue;
+    color: hsl(240, 24%, 93%);
 }
 img{
     width:150px ;
@@ -20,4 +20,24 @@ img{
 }
 p{
     padding: 10px;
+}
+main{max-width: 800px;}
+aside{
+    width: 20rem;
+    margin: 1em ;
+    border: 1px solid rgb(0, 0,0/0.2);
+    padding: 1rem ;
+    background-color: cornsilk;
+    color: aqua;
+    text-align: center;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+p{ padding: 0;}
+footer{
+    margin-top: 10px;
+    border-top: 1px solid cornsilk;
+    text-align: center;
 }
