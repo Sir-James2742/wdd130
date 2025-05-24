@@ -40,6 +40,7 @@ aside{
     background-color: cornsilk;
     color: rgb(24, 27, 27);
     text-align: center;
+    position: relative;
 }
 aside img{
     width: 200px;
