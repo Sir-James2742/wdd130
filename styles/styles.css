@@ -62,8 +62,10 @@ footer{
     color: hsl(0, 33%, 6%);
 }
 
-aside h1{
+aside h2{
     border-top: 25px;
     color: brown;
+    position: absolute;
+    left: 100px;
 }
 /* Class selectors */
