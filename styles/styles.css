@@ -60,11 +60,6 @@ footer{
     background: rgb(175, 174, 174);
     color: hsl(0, 33%, 6%);
 }
-aside h2{
-    position: relative;
-    top: 1em;
-    left: 20px;
-}
 
 aside h1{
     border-top: 25px;
