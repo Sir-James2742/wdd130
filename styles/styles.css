@@ -1,15 +1,19 @@
+:root{
+    --color:hsl(240, 24%, 93%);
+    --padding:10px;
+}
 nav{
     background-color: darkblue;
-    padding: 10px;
+    padding: var(--padding);
 }
 nav a {
-    color: white ;
+    color: var(--color) ;
     display:block; 
     padding:20px ;
 
 }
 h1{
-    color: hsl(240, 24%, 93%);
+    color: var(--color);
 }
 img{
     width:150px ;
@@ -19,7 +23,7 @@ img{
     box-shadow: 0 0 30px grey;
 }
 p{
-    padding: 10px;
+    padding: var(--padding);
 }
 main{max-width: 800px;}
 aside{
@@ -27,8 +31,8 @@ aside{
     margin: 1em ;
     border: 1px solid rgb(0, 0,0/0.2);
     padding: 1rem ;
-    background-color: black;
-    color: aqua;
+    background-color: cornsilk;
+    color: rgb(24, 27, 27);
     text-align: center;
 }
 aside img{
@@ -38,6 +42,6 @@ aside img{
 p{ padding: 0;}
 footer{
     margin-top: 10px;
-    border-top: 1px solid cornsilk;
+    border-top: 1px var(--color);
     text-align: center;
 }
