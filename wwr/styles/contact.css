@@ -101,3 +101,6 @@ footer{
 .first, .second{
     border: 0.5px solid;
 } 
+h1{
+   text-align: center;
+}
