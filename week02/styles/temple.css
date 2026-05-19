@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 0 5px;
+}
+
+section {
+    padding: 10px;
+    background-color: #eee0e0;
+
+}
+
+header,
+footer {
+    text-align: center;
+    background-color: #382c2c;
+    color: white;
+    padding: 10px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 10px;
+}
