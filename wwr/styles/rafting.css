@@ -65,6 +65,18 @@ h1{
     float: right;
     width: 125px;
 }
+.hero img{
+    border: solid 1px;
+    border-radius: 5px;
+}
+.history img {
+    border: solid 1px;
+    border-radius: 3px;
+}
+.mode img{
+    border: solid 1px;
+    border-radius: 3px;
+}
 header{
     display: grid;
 
