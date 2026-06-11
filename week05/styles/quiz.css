@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+strong{
+    
+    padding: 5px;
+    color:white;
+    background-color: black;
+    margin-left: 5%;
+    
+    border-top: 10px;
+    
+}
+button{
+    color: white;
+    background-color: rgb(111, 0, 255);
+}
