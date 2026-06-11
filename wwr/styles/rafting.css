@@ -30,9 +30,7 @@ nav,p,section,article{
     margin: 16px;
     padding: 8px;
 }
-header img{
-    background-color: #FFFFFF;
-}
+
 .socialmedia{
     text-decoration: none;
 }
@@ -43,6 +41,8 @@ header img{
     display: block;
     width: 100%;
     height: auto;
+    border: solid 1px;
+    border-radius: 5px;
 }
 .hero h1{
     position: absolute;
@@ -68,10 +68,7 @@ header img{
     float: right;
     width: 125px;
 }
-.hero img{
-    border: solid 1px;
-    border-radius: 5px;
-}
+
 .history img {
     border: solid 1px;
     border-radius: 3px;
@@ -79,6 +76,7 @@ header img{
 .mode img{
     border: solid 1px;
     border-radius: 3px;
+    justify-content: space-evenly;
 }
 header{
     display: grid;
@@ -105,11 +103,7 @@ header img{
     grid-column: 1/7;
     
 }
-.mode img{
-    justify-content: space-evenly;
 
-
-}
 .mode p{
     grid-row-start: 2;
     align-items: end;
