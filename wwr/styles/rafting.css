@@ -20,6 +20,9 @@ header,main,footer{
     width:800px;
     margin: 0 auto;
 }
+.logo{
+    width: 90px;
+}
 h1,h2{
     font-family: var(--heading-font);
     color: var(--accent2-color);
@@ -80,6 +83,7 @@ nav,p,section,article{
 }
 header{
     display: grid;
+    
 
 }
 header img{
@@ -186,3 +190,53 @@ footer{
     border-radius: 5PX;
     margin-bottom: 10px;
  }
+ /*home*/
+ .hero-home{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 10px 5px 10px 5px rgba(0.2, 0.2, 0.2, 0.2);
+    margin: 10px;
+ }
+ .home-heading{
+    position: absolute;
+    top: 7rem;
+    left: 33%;
+    color: white;
+    background-color: hsl(0, 8%, 30%,0.5);
+    padding: 5px;
+ }
+.home-form{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    padding-left: 10px;
+}
+input[type="text"],input[type="email"]{
+    width: 250px;
+}
+.home-art{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+.home-art img{
+    width: 100%;
+}
+.home-art div{
+    text-align: center;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 5px;
+    background-color: #dae4d4;
+}
+.home-art h3{
+    color: #074e4e;
+}
+.sign a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #afdfeb;
+    border-radius: 5px;
+    color: black;
+}
