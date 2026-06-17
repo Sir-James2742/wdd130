@@ -83,6 +83,7 @@ nav,p,section,article{
 }
 header{
     display: grid;
+    border-bottom: solid 1px rgb(180, 53, 53);
     
 
 }
@@ -97,6 +98,14 @@ header img{
     justify-content: space-around;
     text-decoration: none;
    
+}
+.navigation a{
+    text-decoration: none;
+    padding: 10px;
+}
+.navigation a:hover{
+    background-color: #CFEE9E;
+    
 }
 .mode{
     display: grid;
@@ -239,4 +248,75 @@ input[type="text"],input[type="email"]{
     background-color: #afdfeb;
     border-radius: 5px;
     color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reach a{
+    border: 1px solid;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #005f99 ;
+    color: white;
+    border-radius: 5px;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #005f99;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f9fc;
+}
+
+tr:hover {
+    background-color: #d9f0ff;
+}
+
+td {
+    color: #333;
+}
+
+.trip div{
+    text-align: start;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #dae4d4;
+}
+
+.trip img{
+    width: 100%;
+}
+.trip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   
+}
+.trip h3{
+    text-align: center;
 }
